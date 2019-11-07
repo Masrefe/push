@@ -1,0 +1,114 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+   
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+
+.navbar-area .navbar-collapse {
+        position: absolute;
+        top: 130px;
+        background: #181731;
+        z-index: 9;
+        right: 0;
+        width: 250px;
+        padding-left: 20px;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .dropdown-menu.show {
+        border: 0;
+    }
+    .navbar-area.navbar.navbar-light .navbar-toggler {
+        background: #fff;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .nav-link.pl-0 {
+        padding-left: 0.4rem !important;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item {
+        padding: 0;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .dropdown-menu.show .dropdown-item {
+        color: #fff;
+    }
+    .dropdown-item {
+        background: #181731;
+        color: #fff;
+        border: 0;
+    }
+    
+    .logo-wrapper.navbar-brand {
+        padding-top: 0;
+    }
+    .navbar-area {
+        top: 20px;
+    }
+
+    .logo-wrapper.navbar-brand {
+        padding-top: 0;
+    }
+
+    .navbar-area .navbar-collapse .navbar-nav .nav-item {
+        line-height: 35px;
+    }
+    
+    .navbar-area.nav-fixed {
+        padding: 20px 0;
+    }
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+.navbar-area .navbar-collapse {
+        position: absolute;
+        top: 130px;
+        background: #181731;
+        z-index: 9;
+        right: 0;
+        width: 250px;
+        padding-left: 20px;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .dropdown-menu.show {
+        border: 0;
+    }
+    .navbar-area.navbar.navbar-light .navbar-toggler {
+        background: #fff;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .nav-link.pl-0 {
+        padding-left: 0.4rem !important;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item {
+        padding: 0;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .dropdown-menu.show .dropdown-item {
+        color: #fff;
+    }
+    .dropdown-item {
+        background: #181731;
+        color: #fff;
+        border: 0;
+    }
+    
+    .logo-wrapper.navbar-brand {
+        padding-top: 0;
+    }
+    .navbar-area {
+        top: 20px;
+    }
+
+    .logo-wrapper.navbar-brand {
+        padding-top: 0;
+    }
+
+    .navbar-area .navbar-collapse .navbar-nav .nav-item {
+        line-height: 35px;
+    }
+    
+    .navbar-area.nav-fixed {
+        padding: 20px 0;
+    }
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
